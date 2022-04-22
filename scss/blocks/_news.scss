@@ -1,0 +1,116 @@
+.news{
+    margin-bottom: 100px;
+}
+
+
+.news-heading{
+    margin-left: 35px;
+}
+   .news-top__desc{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #00094A;
+    }
+    .news-top__heading-novogo{
+        margin-top: -40px;
+        font-family:Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 61px;
+        color: #00094A;
+    }
+
+.news-top__list{
+    margin-top: -20px;
+    display: inline-block;
+}
+.news-top__item{
+    list-style: none;
+    cursor: pointer;
+}
+.news-top__img{
+    width: 360px;
+    height: 230px;
+}
+.data-one{
+margin-top: 25px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+color: #00094A;
+}
+.data-two{
+margin-top: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #00094A;
+}
+.data-three{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 17px;
+color: #06A39C;
+    margin-top: 25px;
+}
+.indicator{
+    cursor: pointer;
+}
+.news-bottom{
+    &__heading{
+        margin-top: 100px;
+        margin-left: 35px;
+    }
+    &__heading-three{
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #00094A;
+    }
+    &__heading-four{
+      margin-top: -30px;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 61px;
+      color: #00094A;
+    }
+    &__desc{
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: #00094A;
+      opacity: 0.8;
+      margin-top: -30px;
+    }
+    &__logo{
+      margin-left: 30px;
+      margin-top: 75px;
+      text-decoration: none;
+    }
+    &__tible-dot{
+      margin-top: 20px;
+      margin-left: 610px;
+      cursor: pointer;
+      position: absolute;
+    }
+    .button{
+        margin-top: 80px;
+        margin-left: 540px;
+    }
+}

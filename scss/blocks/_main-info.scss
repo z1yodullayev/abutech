@@ -1,0 +1,85 @@
+.main-info{
+
+    &__top{
+        padding: 0 300px;
+        margin-bottom: 50px;
+
+    }
+
+    &__nav-list{
+        list-style: none;
+        border-radius: 3px;
+        border: 1px solid #00094A;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        max-width: 622px;
+    }
+
+    &__nav-item{
+        margin: 0;
+        padding: 0;
+    }
+
+    &__nav-link{
+        margin: 0;
+        text-decoration: none;
+        padding: 10px 30px;
+        display: inline-block;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #00094A;
+    }
+
+    &__nav-link:hover{
+        margin: 0;
+        text-decoration: none;
+        padding: 10px 30px;
+        display: inline-block;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #00094A;
+        background-color: gainsboro;
+    }
+
+    &__nav-link:active{
+        text-decoration: none;
+        padding: 10px 30px;
+        display: inline-block;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #00094A;
+    }
+
+    &__center{
+        margin-bottom: 14px;
+    }
+    &__bottom{
+        margin-bottom: 50px;
+    }
+    &__img{
+        display: inline-block;
+    }
+
+    &__button-box{
+        padding: 0 548px;
+
+    }
+
+    margin-bottom: 120px;
+
+}

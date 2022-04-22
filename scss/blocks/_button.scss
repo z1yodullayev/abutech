@@ -1,0 +1,58 @@
+.button{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #00094A;
+    border: 2px solid #00094A;
+    width: 186px;
+    height: 42px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.button:hover{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #00094A;
+    border: 2px solid #00094A;
+    width: 186px;
+    height: 42px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color:#FFFFFF ;
+    padding: 10px;
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+.button:active{
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid #00094A;
+    width: 186px;
+    height: 42px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00094A;
+    padding: 10px;
+}

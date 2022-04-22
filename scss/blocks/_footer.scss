@@ -1,0 +1,107 @@
+.footer{
+    background-color: #00094A;
+
+    &__top{
+        margin-top: 90px;
+
+    }
+    &__heading{
+        margin: 0;
+        padding: 0;
+        max-width: 876px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 56px;
+        color: #FFFFFF;
+    }
+    &__desc{
+        margin: 0;
+        padding: 0;
+        margin-top: 15px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+    }
+
+    &__bottom{
+        display: flex;
+        margin-top: 84px;
+    }
+    &__bottom-left , &__bottom-right{
+        max-width: 312px;
+
+    }
+
+    &__left-item ,&__bottom-right__item{
+        margin: 0;
+        padding: 0;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+        opacity: 0.44;
+    }
+    .bottom-address , .site-link{
+        margin-top: 50px;
+    }
+    &__left-link , &__left-address , &__bottom-right__link-web ,&__bottom-right__tel{
+        text-decoration: none;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    &__bottom-right__link-web {
+        margin-right: 25px;
+    }
+    &__bottom-right__link-web + &__bottom-right__link-web {
+        margin-right: 25px;
+    }
+
+    &__buttom{
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+        padding-bottom: 95px;
+    }
+
+    &__buttom-link-top{
+        position: relative;
+        width: 404px;
+        text-decoration: none;
+        padding: 27px 0;
+        padding-left: 30px;
+        font-family: 'Montserrat';
+        background: linear-gradient(266.1deg, #58FFD1 -14.15%, #0CA09B 94.33%);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    &__buttom-link-low{
+        position: relative;
+        text-decoration: none;
+        background: #FFFFFF;
+        border-radius: 2px;
+        padding: 27px 0;
+        margin-top: 20px;
+        padding-left: 30px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #00094A;
+    }
+
+    &__buttom-img{
+        position: absolute;
+        right: 25px;
+        top: 33px;
+    }
+
+}

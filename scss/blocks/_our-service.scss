@@ -1,0 +1,55 @@
+.our-service{
+    margin-bottom: 140px;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left{
+        max-width: 695px;
+    }
+    &__question{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #00094A;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 20px;
+    }
+    &__heading{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 61px;
+        color: #00094A;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 15px;
+    }
+
+    &__heading-decoration{
+        color: #06A39C;
+    }
+
+    &__text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #00094A;
+        opacity: 0.8;
+        margin: 0;
+        padding: 0;
+        width: 729px;
+    }
+    &__button{
+        margin-top: 50px;
+    }
+
+
+}

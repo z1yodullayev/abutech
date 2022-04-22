@@ -1,0 +1,76 @@
+.hero{
+    margin-bottom: 80px;
+    .hero__wrapper{
+        // width: 1320px;
+        background-image: url(/images/site-hero-bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-left: 62px;
+        padding-bottom: 56px;
+    }
+    .hero__heading{
+        margin: 0;
+        padding: 0;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 43px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 195px;
+        padding-bottom: 7px;
+
+    }
+    .hero__desc{
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #FFFFFF;
+        width: 493px;
+        margin-bottom: 15px;
+    }
+    .hero__btn{
+        padding: 14px 12px 14px 15px;
+    }
+    .hero__player{
+        margin-left: 30px;
+        text-align: center;
+        margin-top: 3px;
+    }
+    .hero__list{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
+    .hero__item{
+        margin: 0;
+        padding: 0;
+        width: 166px;
+        align-self: flex-start;
+    }
+    // .hero__item + .hero__item{
+    //     margin-left: 91;
+    // }
+    .hero__item-number{
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #00094A;
+    }
+    .hero__item-desc{
+        margin: 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #00094A;
+    }
+}

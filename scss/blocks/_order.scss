@@ -1,0 +1,103 @@
+.order{
+    display: flex;
+
+    &__left{
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        background: linear-gradient(65.19deg, #58FFD1 -22.04%, #0CA09B 86.47%);
+    }
+    &__one{
+        max-width: 350px;
+        padding-bottom: 50px;
+        margin-right: 250px ;
+    }
+    &__left-heading{
+        margin: 0;
+        padding: 0;
+        padding-top: 36px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        color: #FFFFFF;
+    }
+    &__left-desc{
+        margin: 0;
+        padding: 0;
+        margin-top: 5px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        opacity: 0.8;
+    }
+    &__input-tel{
+        padding: 11px 0;
+        padding-left: 10px;
+        margin-top: 35px;
+        border: none;
+        border-radius: 2px;
+    }
+    &__submit{
+        margin-left: 5px;
+        padding: 11px 15px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 20px;
+        color: #FFFFFF;
+        background: #00094A;
+        border-radius: 2px;
+        border: none;
+    }
+
+    &__right{
+        width: 100%;
+        background: linear-gradient(65.19deg, #58FFD1 -22.04%, #0CA09B 86.47%);
+    }
+    &__two{
+        padding-left: 97px;
+        max-width: 365px;
+        padding-bottom: 50px;
+    }
+    &__right-heading{
+        margin: 0;
+        padding: 0;
+
+        padding-top: 37px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+
+    }
+    &__right-desc{
+        margin: 0;
+        padding: 0;
+        margin-top: 10px;
+        font-family: 'Montserrat';
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    &__downlod{
+        position: relative;
+        margin-top: 20px;
+        padding: 12px 0;
+        padding-left: 55px;
+        padding-right: 25px;
+        border: none;
+        border-radius: 2px;
+        // width: 170px;
+
+    }
+    &__downlod-img{
+        position: absolute;
+        left: 30px;
+        top: 9px;
+    }
+}
